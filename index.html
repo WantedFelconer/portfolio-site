@@ -3,35 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Darth's Portfolio</title>
+  <title>WantedFelconer Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <!-- Google Fonts & Material Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+  <!-- Sidebar Menu -->
+  <div id="sidebar" class="sidebar">
+    <span class="closebtn" onclick="toggleSidebar()">&times;</span>
+    <div class="sidebar-content">
+      <h2>Connect</h2>
+      <div class="tile"><a href="https://www.facebook.com/wantedfelconer" target="_blank">Facebook</a></div>
+      <div class="tile"><a href="https://www.instagram.com/wantedfelconer" target="_blank">Instagram</a></div>
+      <div class="tile"><a href="https://www.linkedin.com/in/warnerlevi" target="_blank">LinkedIn</a></div>
+      <div class="tile"><a href="https://x.com/wantedfelconer" target="_blank">X</a></div>
+      <div class="tile"><a href="https://www.youtube.com/@wantedfelconer" target="_blank">YouTube</a></div>
+      <div class="tile"><a href="https://www.github.com/wantedfelconer" target="_blank">GitHub</a></div>
+    </div>
+  </div>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <span class="material-icons menu-icon" onclick="toggleSidebar()">menu</span>
+  </div>
+
+  <!-- Hero Section -->
   <header class="hero">
-    <img src="https://drive.google.com/uc?export=view&id=1burBk4twn_H_RLZ0j78HHYGtzn-rh3eF" alt="Avatar" class="avatar">
-    <h1>Darth</h1>
-    <p>Backend Integration • Database Projects • Cross-Language Synthesis</p>
+    <div class="hero-left">
+      <img src="https://drive.google.com/uc?export=view&id=1burBk4twn_H_RLZ0j78HHYGtzn-rh3eF" alt="Avatar" class="avatar">
+    </div>
+    <div class="hero-right">
+      <h1>WantedFelconer</h1>
+      <p>Backend Integration Specialist | Brac University CS Student</p>
+    </div>
   </header>
 
-  <main>
-    <section class="video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Dixybr5ZCl0"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </section>
+  <!-- Centered YouTube Video -->
+  <section class="video">
+    <iframe src="https://www.youtube.com/embed/Dixybr5ZCl0"
+      title="Intro Video" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </section>
 
-    <section class="projects">
-      <h2>Featured Projects</h2>
+  <!-- Centered Projects -->
+  <section class="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-cards">
       <div class="card">Task Manager App (Java + MySQL)</div>
       <div class="card">University Course Registration System</div>
       <div class="card">Music Streaming Prototype</div>
-    </section>
-  </main>
+    </div>
+  </section>
 
+  <!-- Footer Social Icons -->
   <footer>
     <div class="social-icons">
       <a href="https://www.facebook.com/wantedfelconer" target="_blank"><span class="material-icons">facebook</span></a>
@@ -41,7 +68,9 @@
       <a href="https://www.youtube.com/@wantedfelconer" target="_blank"><span class="material-icons">play_circle</span></a>
       <a href="https://www.github.com/wantedfelconer" target="_blank"><span class="material-icons">code</span></a>
     </div>
-    <p>© 2026 Darth</p>
+    <p>© 2026 WantedFelconer</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
