@@ -50,7 +50,7 @@ I used **GitHub Pages** to host this portfolio:
 2. In **Settings → Pages**, I selected branch `main` and root `/`.
 3. My site is now live at:
    ```
-   https://wantedfelconer.github.io/portfolio/
+   https://wantedfelconer.github.io/portfolio-site/
    ```
 
 ---
