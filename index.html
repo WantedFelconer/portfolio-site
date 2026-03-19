@@ -5,29 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Darth's Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts & Material Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Hello, I'm Darth</h1>
-    <p>Designer • Developer • Learner</p>
+  <header class="hero">
+    <img src="https://drive.google.com/uc?export=view&id=1burBk4twn_H_RLZ0j78HHYGtzn-rh3eF" alt="Avatar" class="avatar">
+    <h1>Darth</h1>
+    <p>Backend Integration • Database Projects • Cross-Language Synthesis</p>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I specialize in backend integration, database-heavy projects, and cross-language synthesis.</p>
-  </section>
+  <main>
+    <section class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Dixybr5ZCl0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>Task Manager App (Java + MySQL)</li>
-      <li>University Course Registration System</li>
-      <li>Music Streaming Prototype</li>
-    </ul>
-  </section>
+    <section class="projects">
+      <h2>Featured Projects</h2>
+      <div class="card">Task Manager App (Java + MySQL)</div>
+      <div class="card">University Course Registration System</div>
+      <div class="card">Music Streaming Prototype</div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2026 Darth | <a href="https://github.com/YOURUSERNAME">GitHub</a></p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/wantedfelconer" target="_blank"><span class="material-icons">facebook</span></a>
+      <a href="https://www.instagram.com/wantedfelconer" target="_blank"><span class="material-icons">photo_camera</span></a>
+      <a href="https://www.linkedin.com/in/warnerlevi" target="_blank"><span class="material-icons">work</span></a>
+      <a href="https://x.com/wantedfelconer" target="_blank"><span class="material-icons">chat</span></a>
+      <a href="https://www.youtube.com/@wantedfelconer" target="_blank"><span class="material-icons">play_circle</span></a>
+      <a href="https://www.github.com/wantedfelconer" target="_blank"><span class="material-icons">code</span></a>
+    </div>
+    <p>© 2026 Darth</p>
   </footer>
 </body>
 </html>
