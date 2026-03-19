@@ -1,4 +1,3 @@
-
 ---
 
 # WantedFelconer Portfolio
@@ -50,19 +49,19 @@ I used **GitHub Pages** to host this portfolio:
 2. In **Settings → Pages**, I selected branch `main` and root `/`.
 3. My site is now live at:
    ```
-   https://wantedfelconer.github.io/portfolio-site/
+   https://wantedfelconer.github.io/portfolio/
    ```
 
 ---
 
 ## 🔗 My Social Links
 
-- Facebook [(facebook.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.facebook.com%2Fwantedfelconer")  
+- [Facebook](https://www.facebook.com/wantedfelconer)  
 - [Instagram](https://www.instagram.com/wantedfelconer)  
 - [LinkedIn](https://www.linkedin.com/in/warnerlevi)  
 - [X (Twitter)](https://x.com/wantedfelconer)  
 - [YouTube](https://www.youtube.com/@wantedfelconer)  
-- GitHub [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.github.com%2Fwantedfelconer")  
+- [GitHub](https://www.github.com/wantedfelconer)  
 
 ---
 
